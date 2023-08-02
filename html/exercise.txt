@@ -1,3 +1,6 @@
 1) create IPL point table using HTML table tag. format winners differently using font and bgcolor. 
 
 2) create resume using html tag only 
+
+3) create change password form 
+4) create forgot password form 
