@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="success.html" method="get">
+        <table border="2" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center">Search Bus</td>
+            </tr>
+            <tr>
+                <td>Enter from</td>
+                <td>
+                    <input type="text" name="from" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Enter to</td>
+                <td>
+                    <input type="text" name="to" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Select bus type</td>
+                <td>
+                    <label for="Gujarnagari">
+                        <input id="Gujarnagari" type="radio" name="bustype" value="1" required /> Gujarnagari
+                    </label>
+                    <label for="express">
+                        <input id="express" type="radio" name="bustype" value="2" required /> Express
+                    </label>
+                    <label for="ac"> <input id="ac" type="radio" name="bustype" value="3" required /> Ac
+                    </label>
+                    <label for="sleeper" <input id="sleeper" type="radio" name="bustype" value="4" required /> Sleeper
+                    </label>
+                    <label for="acsleeper"> <input id="acsleeper" type="radio" name="bustype" value="5" required /> AC Sleeper
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Search" name="submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
