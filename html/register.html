@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="success.html" method="post" enctype="multipart/form-data">
+       <table align="center" cellpadding="10" width="50%" border="2">
+            <tr>
+                <td>
+                    <input type="text" name="fullname" required placeholder="enter your fullname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="email" required placeholder="your email address " />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" name="password" required placeholder="your password" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of birth</label> <br/>
+                    <input id="dob" type="date" name="dob" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tel" name="mobile" placeholder="your mobile no" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select gender <br/>
+                    <label for="male">
+                        <input type="radio" name="gender" id="male" value="1"  required/>Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" id="female" value="0" required />Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="pincode" placeholder="your area pincode" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Photo <br/>
+                    <input type="file" name="photo" accept="image/*" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select your resume (pdf) <br/>
+                    <input type="file" name="pdf" accept="application/pdf" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="state" required>
+                        <option value="">Select state</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="cities" required>
+                        <option value="">select city</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <!-- Add more cities here -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="languages" multiple>
+                        <option value="Hindi">Hindi</option>
+                        <option value="English">English</option>
+                        <option value="Bengali">Bengali</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Marathi">Marathi</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Urdu">Urdu</option>
+                        <option value="Gujarati">Gujarati</option>
+                        <option value="Kannada">Kannada</option>
+                        <option value="Odia">Odia</option>
+                        <!-- Add more languages here -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="reading">
+                        <input type="checkbox" name="reading" id="reading" value="1" />Reading
+                    </label>
+                    <label for="coding">
+                        <input type="checkbox" name="coding" id="coding" value="2" />Coding
+                    </label>
+                    <label for="music">
+                        <input type="checkbox" name="music" id="music" value="3" />Music
+                    </label>
+                    <label for="cricket">
+                        <input type="checkbox" name="cricket" id="cricket" value="4" />Cricket
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address <br/>
+                    <textarea name="address" required>
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="register" name="submit" />
+                    <input type="reset" value="clear all" name="clear all" />
+                    <input type="button" value="do nothing" name="btnnothing" />
+                </td>
+            </tr>
+       </table> 
+    </form>
+</body>
+</html>
